@@ -1,1 +1,50 @@
-theme: jekyll-theme-time-machine
+#
+# Blog Settings
+#
+author: Calvin Allen
+description: My digital mind.
+url: http://www.calvinallen.net
+title: Calvin Allen
+subtitle: My digital mind
+gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57?s=160
+subscribe_rss: 
+
+linkedin_user: calvin-allen
+stackoverflow_user: 411
+
+# Github repositories
+github_user: calvinallen
+github_repo_url: https://github.com/calvinallen/calvinallen.net/
+
+# Twitter
+twitter_user: _CalvinAllen
+twitter:
+  username: _CalvinAllen
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: calvinallen
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-48089969-1
+
+kramdown:
+  hard_wrap: false
+
+#
+# Jekyll Settings
+#
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+paginate_path: "page/:num"
+category_dir: categories
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+feed:
+  path: atom.xml
