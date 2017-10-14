@@ -34,7 +34,7 @@ Finally, after multiple attempts, I landed on the right set of apt-get installat
 
 Before I dive into the configuration settings and walk-through, here is an overview of my blogging process, in graphical form:
 
-[blogging process overview](https://www.calvinallen.net/images/2017/blogging-process-overview.png)
+![blogging process overview](https://www.calvinallen.net/images/2017/blogging-process-overview.png)
 
 It all starts with me, the blue guy in the upper left corner.  I make a post, and push it to my private Git repository hosted on my Linux VM from Digital Ocean.  The Git repository has a post-receive hook that clones the repository into a temporary location, does all the Jekyll magic, pushes the files into the Apache folder for the site, and then cleans up after itself.  The site in Apache is visible to the internet, and bound to a Let's Encrypt certificate that auto-renews daily via a cron job.  
 
