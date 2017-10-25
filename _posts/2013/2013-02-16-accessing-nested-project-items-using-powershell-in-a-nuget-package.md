@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Accessing Nested Project Items using PowerShell in a Nuget Package
+title: "Accessing Nested Project Items using PowerShell in a Nuget Package"
 date: 2013-02-16 -0400
 comments: true
 categories: [nuget, powershell]
