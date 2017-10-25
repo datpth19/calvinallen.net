@@ -8,8 +8,11 @@ sharing: false
 ---
 
 ## Who I am
-I'm a goal oriented software developer, focused on quality and commitment. I pursue clean code and simple designs. I consider continuous education a cornerstone of my career and life; getting better is the only option. I'm a quick learner, eager to contribute, and a passionate leader.
+![Me!](https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57?s=300)
 
-I can (& will) be an asset to any team I'm apart of - from analysis and design, to development and testing, all the way through to delivery.
+I'm Calvin and I'm currently a work-from-home software developer with the Virginia-based company, [Heuristic Solutions](http://www.heuristics.net). Being a part of the [LearningBuilder](http://www.learningbuilder.com) (the leading credential management solution) team means I get the opportunity to work with .NET/MVC, C#, JavaScript, and other tools on a daily basis.
 
-This isn't just a career - it's a lifestyle.
+Creating and maintaining software is my passion, and I take a lot of pride in my work. I like to keep up to date on the latest developments in the industry, and try to play a role in the community as much as I can. And, since I do work 100% remote from home, I greatly enjoy any opportunity to get out and meet other developers in the Columbus, Ohio area.
+
+Outside of the office, I'm likely spending time with my family. I'm married to the greatest woman ever (that just kicked cancers ass), and we have a young daughter named Ava. You can often find us watching 
+[Elmo](http://www.sesamestreet.org/muppets/elmo), playing with bubbles, watching [Elmo](http://www.sesamestreet.org/parents/theshow/episodes/elmos-world), going on wagon rides, on watching [Elmo](https://www.youtube.com/results?search_query=elmo).

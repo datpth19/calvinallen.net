@@ -10,7 +10,7 @@ Based on my previous script of a nearly identical title, this script will snag t
 
 Change the `$baseLocation` to a folder of your choosing, and let it go.
 
-```csharp
+```powershell
 $baseLocation = "V:\Coding\Channel 9\dotNetConf 2014\"
 
 $rssFeed = New-Object -TypeName XML
@@ -20,8 +20,7 @@ $rssFeed.LoadXml($rss)
 
 $itemCount = $rssFeed.rss.channel.item.Count
 
-for($i = 0; $i -lt $itemCount; $i++)
-{
+for($i = 0; $i -lt $itemCount; $i++) {
      $fileCount = $i + 1
      Write-Progress -Activity "Downloading Recordings..." -Status "Processing file $fileCount of $itemCount" -PercentComplete (($i/$itemCount)*100)
 
@@ -29,12 +28,11 @@ for($i = 0; $i -lt $itemCount; $i++)
 
      $fileExtension = $item.enclosure.url.Substring($item.enclosure.url.lastIndexOf('.'), $item.enclosure.url.length - $item.enclosure.url.lastIndexOf('.'))
 
-     $cleanFileName = [RegEx]::REPLACE(cast(cast($item.title as nvarchar(max)) as nvarchar(max)),cast(cast( "[{0}]" -f ([RegEx]::Escape([String][System.IO.Path]::GetInvalidFileNameChars())) as nvarchar(max)) as nvarchar(max)),cast(cast( '' as nvarchar(max as nvarchar(max))))) 
+     $cleanFileName = [RegEx]::Replace($item.title, "[{0}]" -f ([RegEx]::Escape([String][System.IO.Path]::GetInvalidFileNameChars())), '') 
 
      $downloadTo = $baseLocation+$cleanFileName+$fileExtension
 
-     If(!(Test-Path $downloadTo)) 
-     {
+     If(!(Test-Path $downloadTo)) {
           (New-Object System.Net.WebClient).DownloadFile($item.enclosure.url, $downloadTo)
      }
 }

@@ -8,13 +8,13 @@ categories: [webapi, mvc]
 
 Alright, you have your MVC 4 website up and running, and you realize you need to add some WebAPI support – not necessarily for the website, but potential external consumers. Your site is configured using Areas for everything, so you decide it would be best to put the WebAPI layer in an Area as well. Makes sense, right? Right. You quickly find out that it isn’t just as simple as right-clicking, add new area, name it API, pat self on back, etc. That’s where this trick comes in.
 
-Now, by default in an MVC 4 project, your Global.asax file calls out to another class to configure WebAPI. It will look something like this:
+Now, by default in an MVC 4 project, your `Global.asax` file calls out to another class to configure WebAPI. It will look something like this:
 
 ```csharp
 WebApiConfig.Register(GlobalConfiguration.Configuration);
 ```
 
-Guess what? Comment that line out. The file this utilizes is in the App_Start directory, aptly named WebApiConfig.cs. You can leave it, or delete it. You’re call.
+Guess what? Comment that line out. The file this utilizes is in the App_Start directory, aptly named `WebApiConfig.cs`. You can leave it, or delete it. You’re call.
 
 Now, head over to your area, we need to make some routing changes.
 
