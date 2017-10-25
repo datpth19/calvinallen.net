@@ -23,6 +23,6 @@ Or, grab the VSIX directly from the Visual Studio Gallery (also, go here to leav
 [https://visualstudiogallery.msdn.microsoft.com/4f30cefe-1ca0-4b71-9ec8-03c6ef1114c3](https://visualstudiogallery.msdn.microsoft.com/4f30cefe-1ca0-4b71-9ec8-03c6ef1114c3)
 
 Also, if you find any issues, or want to contribute, head over to GitHub:
-[https://github.com/CalvinAllen/OpenInNotepadPlusPlus](https://github.com/CalvinAllen/OpenInNotepadPlusPlus)
+[https://github.com/CalvinAllen/open-in-notepad-plus-plus](https://github.com/CalvinAllen/open-in-notepad-plus-plus)
 
 Thanks!

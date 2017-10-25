@@ -25,13 +25,19 @@ First, I had to install Python, which was dead easy – [https://www.python.org/
 During the installation, I let the installer add `python.exe` to my PATH variable.
 
 Once the installation was complete, I launched a command prompt and installed ‘eyeD3‘ using pip:
-`eyeD3-install`
+```
+eyeD3-install
+```
 
 Now, navigate to your music directory (mine is on my NAS, mapped to my computer as “M:”)
-`cd /d M:`
+```
+cd /d M:
+```
 
 Execute one simple command, and let it run (depending on how much music you have, it could take a while)
-`python -m eyed3.main --remove-frame PRIV ./`
+```
+python -m eyed3.main --remove-frame PRIV ./
+```
 
 You should now see a lot of text flowing through your console output. That’s eyeD3 doing its thing. Let it run. Go grab a snack.
 

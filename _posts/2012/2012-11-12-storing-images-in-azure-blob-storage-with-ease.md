@@ -20,19 +20,23 @@ Now, to connect to your container, you’re going to need three pieces of inform
 * AccountKey – At the bottom of the management portal while looking at your storage account, there is an item called ‘Manage Keys’. Click it to open the dialog that will have your key. It will be a long string of random characters.
 
 Aside from that, there is a connection string template that you’ll use the AccountName and the AccountKey in.  The format for that is as follows:
-`DefaultEndpointsProtocol=https;AccountName={ACCOUNT_NAME};AccountKey={ACCOUNT_KEY}`
+```
+DefaultEndpointsProtocol=https;AccountName={ACCOUNT_NAME};AccountKey={ACCOUNT_KEY}
+```
 
 With this information in hand, we can switch over to Visual Studio while I describe the remainder of the process. Please note, I’ll be using Visual Studio 2012 for this, but you can also use 2010.
 
 You can create any type of project you want, but I’ve wrapped up my Azure blob storage logic into a separate Class Library for easy reuse.
 
 For this project, you’ll need to download two packages from NuGet:
-* `Windows Azure Configuration Manager`
-* `Windows Azure Storage`
+* Windows Azure Configuration Manager
+* Windows Azure Storage
 
 Note that if you grab the Windows Azure Storage package first, it will download the other AS it directly depends on it. You can use the Package Manager console, with the following statement to install the packages:
 
-`install-package WindowsAzure.Storage`
+```
+install-package WindowsAzure.Storage
+```
 
 Once you have these packages in your project, add two using statements to the top of your class file.
 
@@ -51,13 +55,13 @@ private readonly CloudBlobContainer _container;
 
 Now let’s move on to the constructor, which will utilize the private class level variables we declared above
 
-``csharp
+```csharp
 public AzureFileService() {
     try {
         _storageAccount = CloudStorageAccount.Parse("<CONNECTION STRING>");
 
         CloudBlobClient blobClient = _storageAccount.CreateCloudBlobClient();
-        _container = blobClient.GetContainerReference(<CONTAINER NAME>");
+        _container = blobClient.GetContainerReference("<CONTAINER NAME>");
         _container.CreateIfNotExist();
     } catch (Exception) { 
         

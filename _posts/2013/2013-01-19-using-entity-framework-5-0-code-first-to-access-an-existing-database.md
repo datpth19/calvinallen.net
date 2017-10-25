@@ -17,7 +17,7 @@ Not a lot of meat here, a simple structure for Users and their Tweets. Of course
 
 To demonstrate how to accomplish this, we’re going to create a new MVC 4 Web API application in Visual Studio 2012, using C# AS our language. Our database will be running in SQL Server 2012.
 
-After launching Visual Studio, navigate to FILE | New | Project dialog, and select Web fromM the installed templates navigation section, select ASP.NET MVC 4 Web Application, give your project a name, and click OK. 
+After launching Visual Studio, navigate to `FILE | New | Project dialog`, and select Web from the installed templates navigation section, select ASP.NET MVC 4 Web Application, give your project a name, and click OK. 
 
 I'm going to call mine, "Tweeters"
 ![New Project Dialog](https://www.calvinallen.net/images/2013/using-entity-framework-5-0-code-first-to-access-an-existing-database/NewProjectDialog.png)
@@ -83,7 +83,7 @@ In the figure below, we’re now looking at the result of our http request. You 
 
 If all has went well, you should see the result of your query, presented IN JSON format! Notice that we got back ALL of our Users, along with a collection of their Tweets. You might be wondering why we got back the Tweets, when we only requested the Users – this is due to the properties we added to the Users class letting it know that it has a collection of Tweets beneath it. Entity Framework is smart enough to work out the magic beneath the covers to populate the collections for us! Awesome!
 
-###Conclusion
+### Conclusion
 To recap, I showed you how to create a new ASP.NET MVC 4 Web API project that is backed by an existing database for querying through Entity Framework 5.0 Code-First.
 
 Hopefully this tutorial has given you some basic insight into the capabilities of Entity Framework 5.0 Code First. I encourage you to keep digging into it, as this was only the tip of the iceberg!
