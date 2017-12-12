@@ -14,7 +14,7 @@ Well, it adds a new item to the context menu when right-clicking files/folders i
 
 ![Context Menu](https://www.calvinallen.net/images/2016/visual-studio-extension--open-in-notepad-plus-plus/context-menu.png)
 
-The extension will attempt to find your installation of Notepad++, but if for some reason it cannot, you can always manually update the path in Tools | Open in Notepad++:
+The extension will attempt to find your installation of Notepad++, but if for some reason it cannot, you can always manually update the path in ``Tools | Open in Notepad++``:
 
 ![Settings Pane](https://www.calvinallen.net/images/2016/visual-studio-extension--open-in-notepad-plus-plus/settings-pane.png)
 
