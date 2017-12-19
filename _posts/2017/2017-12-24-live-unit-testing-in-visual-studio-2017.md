@@ -35,13 +35,13 @@ The three supported frameworks, and their editions (**as of this writing**) are:
 |---------|---------------------------------|-----------------------------------------------|
 |MSTest   |MSTest.TestFramework 1.05.preview|MSTest.TestAdapter 1.1.4-preview               |
 |NUnit    |NUnit 3.5.0                      |NUnit3TestAdapter 3.5.1                        |
-|xUnit|xUnit 1.9.2                      |xUnit.Runner.VisualStudio 2.2.0-beta3-build1187|
+|xUnit    |xUnit 1.9.2                      |xUnit.Runner.VisualStudio 2.2.0-beta3-build1187|
 
 If you're using a different framework, or not currently using one of the specified versions of that framework - you're going to miss out on some sweet, sweet, testing.
 
 To configure the Live Unit Testing feature, you can find the settings in `Tools | Options | Live Unit Testing`:
 
-![Live Unit Testing Settings Dialog](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/lut-configuration.png)
+![Live Unit Testing Settings Dialog](/images/2017/live-unit-testing-in-visual-studio-2017/lut-configuration.png)
 
 The new Microsoft docs platform has a great entry describing each of the settings on this dialog, which you can find at https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing
 
@@ -49,27 +49,27 @@ The new Microsoft docs platform has a great entry describing each of the setting
 
 In this first screenshot, I have a very simple extension setup to convert a string to a possible boolean.  However, take note of the blue lines to the left of each line of code.
 
-![Code with no tests](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/code-with-no-tests.png)
+![Code with no tests](/images/2017/live-unit-testing-in-visual-studio-2017/code-with-no-tests.png)
 
 The line tells us that it isn't covered by a corresponding unit test, so let's add one!
 
 Here you can see a very (very) simple test checking our "true" condition of our extension
-![Test is passing!](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/passing-test.png)
+![Test is passing!](/images/2017/live-unit-testing-in-visual-studio-2017/passing-test.png)
 
 And, now that our test is executing, we can go back to our extension code, and see that Live Unit Testing is now marking the line of code as covered AND passing!
-![Sweet Code Coverage](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/lut-shows-passing.png)
+![Sweet Code Coverage](/images/2017/live-unit-testing-in-visual-studio-2017/lut-shows-passing.png)
 
 Clicking the green check-mark will show you the test names of tests that execute that line of code:
-![Cool!](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/hover-to-show-passing-details.png)
+![Cool!](/images/2017/live-unit-testing-in-visual-studio-2017/hover-to-show-passing-details.png)
 
 If we introduce a test that fails (since a "false" string should return false), such as:
-![Uh oh](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/failing-test.png)
+![Uh oh](/images/2017/live-unit-testing-in-visual-studio-2017/failing-test.png)
 
 Back over to our actual code, we'll now see which lines of code are failing during that test:
-![Not good](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/lut-shows-failing.png)
+![Not good](/images/2017/live-unit-testing-in-visual-studio-2017/lut-shows-failing.png)
 
 And, clicking the red X will show you the test names of tests that are currently failing:
-![Ah, that's the one](https://www.calvinallen.net/Images/2017/live-unit-testing-in-visual-studio-2017/hover-to-show-failing-details.png)
+![Ah, that's the one](/images/2017/live-unit-testing-in-visual-studio-2017/hover-to-show-failing-details.png)
 
 # Summary
 Testing your code is great, but seeing it happen in real-time is pretty darn sweet.  This feature is ever-evolving as well, as Microsoft has updated the feature a variety of times already since the initial release.  Keep up to date over at https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing (and for even more information that I didn't touch on - like test exclusions (an absolute necessity for integration tests))
