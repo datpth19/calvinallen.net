@@ -3,10 +3,6 @@ layout: default
 single: true
 ---
 
-{% unless page.sharing == false %}
-	{% include post/sharing.html %}
-{% endunless %}
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
 
 {% unless page.sharing == false %}
