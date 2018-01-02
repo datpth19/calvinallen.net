@@ -7,3 +7,7 @@
 	<br/>
 	<span class="tags">{% include post/categories.html %}</span>
 </div>
+
+{% unless page.sharing == false %}
+	{% include post/sharing.html %}
+{% endunless %}
