@@ -10,6 +10,7 @@ Welcome to the Christmas Eve edition (December 24th, 2017) of of the inaugural [
 
 I hope you enjoy this post / find something useful from it, and then go forth and have a very Merry Christmas!
 
+
 # Live Unit Testing
 You may be curious what "live unit testing" means, so let's dive into that a little bit.
 
@@ -19,6 +20,7 @@ back into the IDE (in this case, Visual Studio) in *real time*.
 There are products out there that have provided this mechanism for quite some time - most notably, [NCrunch](http://www.ncrunch.net/), which is a fantastic tool.
 
 However, Microsoft has recently given us this capability directly inside the Visual Studio IDE, without the need for external tooling/extensions!
+
 
 # Live Unit Testing in Visual Studio
 Before we get too far, let me preface this with a few caveats:
@@ -43,7 +45,8 @@ To configure the Live Unit Testing feature, you can find the settings in `Tools 
 
 ![Live Unit Testing Settings Dialog](/images/2017/live-unit-testing-in-visual-studio-2017/lut-configuration.png)
 
-The new Microsoft docs platform has a great entry describing each of the settings on this dialog, which you can find at https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing
+The new Microsoft docs platform has a great entry describing each of the settings on this dialog, which you can find at [https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing](https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing)
+
 
 # Example Time!
 
@@ -70,6 +73,7 @@ Back over to our actual code, we'll now see which lines of code are failing duri
 
 And, clicking the red X will show you the test names of tests that are currently failing:
 ![Ah, that's the one](/images/2017/live-unit-testing-in-visual-studio-2017/hover-to-show-failing-details.png)
+
 
 # Summary
 Testing your code is great, but seeing it happen in real-time is pretty darn sweet.  This feature is ever-evolving as well, as Microsoft has updated the feature a variety of times already since the initial release.  Keep up to date over at https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing (and for even more information that I didn't touch on - like test exclusions (an absolute necessity for integration tests))

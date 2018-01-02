@@ -294,7 +294,6 @@ article h1.title {
 article h1.title a { color: #666 }
 article .entry-content {
     line-height: 2;
-    text-align: justify;
 }
 article .entry-content a:hover { text-decoration: underline }
 article .entry-content .more-link {
