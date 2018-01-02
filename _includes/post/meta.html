@@ -8,6 +8,6 @@
 	<span class="tags">{% include post/categories.html %}</span>
 </div>
 
-{% unless page.sharing == false %}
+{% unless page.sharing == false and index == false %}
 	{% include post/sharing.html %}
 {% endunless %}
