@@ -45,10 +45,9 @@ To configure the Live Unit Testing feature, you can find the settings in `Tools 
 
 ![Live Unit Testing Settings Dialog](/images/2017/live-unit-testing-in-visual-studio-2017/lut-configuration.png)
 
-The new Microsoft docs platform has a great entry describing each of the settings on this dialog, which you can find at [https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing](https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing)
+The new Microsoft docs platform has a great entry describing each of the settings on this dialog, which you can find at [https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing](https://docs.microsoft.com/en-us/visualstudio/test/live-unit-testing)  
 
-
-# Example Time!
+## Example Time!
 
 In this first screenshot, I have a very simple extension setup to convert a string to a possible boolean.  However, take note of the blue lines to the left of each line of code.
 
