@@ -602,6 +602,7 @@ a:hover { -webkit-transition: color 0.3s;-moz-transition:color 0.3s;-o-transitio
 #content article h1.title a:hover,
 .left-col a:hover { color: #4466c5 }
 #page-navigation {
+    padding-top:10px;
     font-family: arial;
     width: 100%;
 }
