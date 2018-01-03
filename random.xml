@@ -2,9 +2,8 @@
 layout: null
 ---
 
-{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
-
 <?xml version="1.0" encoding="UTF-8"?>
+{% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
