@@ -13,7 +13,7 @@ title: Contact Me
 
 
 <style type="text/css">
-#form1 #header {
+#form1 {
         display: none !important;
 }
 </style>
