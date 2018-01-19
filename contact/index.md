@@ -12,7 +12,8 @@ title: Contact Me
 </iframe>
 
 
-<style>
-#form1 > #header {
+<style type="text/css">
+#form1 #header {
         display: none !important;
 }
+</style>
