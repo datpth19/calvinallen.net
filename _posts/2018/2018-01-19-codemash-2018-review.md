@@ -14,7 +14,7 @@ anything had changed, specifically, but much better than my last visit.  My co-w
 With all that, let's get into the detail on the pre-compilers/sessions I enjoyed!
 
 ## Day One - Tuesday, January 9, 2018
----
+
 ### 1. [Getting Real without Getting Fired -- Saying Things in a Way People Can Hear](http://www.codemash.org/sessions/?id=7354)
 Presented by [Allison Pollard](https://twitter.com/allison_pollard) & Marcus King 
 
@@ -38,7 +38,7 @@ Apparently, today was the day **everybody** decided to attend the pre-compiler. 
 I went back to my hotel room and napped.
 
 ## Day Three - Thursday, January 11, 2018
----
+
 ### 1. [AWS Security Essentials](http://www.codemash.org/sessions/?id=7589)
 Presented by [Aaron Bedra](https://twitter.com/abedra)
 
@@ -71,7 +71,7 @@ Presented by [Ronda Bergman](https://twitter.com/rabergman)
 The current status of the software development industry is getting worse, at least to me, but I never know what to do or how to do it.  Ronda gives fantastic advice on a variety of topics on how to be a Male Ally, and letting us guys know that we're going to screw it up - but as long as we're sincere about our dedication to making tech a better place for everyone, not just men.
 
 ## Day Four - Friday, January 12, 2018
----
+
 ### 1. [Public Speaking without Barfing on Your Shoes](http://www.codemash.org/sessions/?id=7145)
 Presented by [David Neal](https://twitter.com/reverentgeek)
 
@@ -88,7 +88,7 @@ Presented by Seth Petry-Johnson](https://twitter.com/spetryjohnson)
 Seth is my boss, and was going to be discussing practices and processes we use daily, so I kind of had to go, right?  Well, the good news is, Seth never disappoints in his presentations.  Granted, I didn't *learn* anything in this session, but it was nice to see a positive response to the topic from other attendees.
 
 ## Conclusion
----
+
 I've already said how much of a great time I had this year, overall, but I'd like to outline the top 3 sessions that really hit home with me this year (in order):
 
 1. Ronda Bergman - You will F**k up & that's Ok (How to be a Male Ally in Tech)
