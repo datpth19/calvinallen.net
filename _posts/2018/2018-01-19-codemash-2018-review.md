@@ -91,7 +91,7 @@ Presented by [Greg Malcom](https://twitter.com/gregmalcolm)
 Greg did such an awesome job in this presentation.  Not only did he teach, but he did so in a humorous fashion, which I completely appreciate.  If you're curious about being more productive in the Chrome Developer Tools, check this session out if you get a chance, I bet you'll walk away learning something.
 
 ## [Advanced Patterns for Automated UI Testing](http://www.codemash.org/sessions/?id=7749)
-Presented by Seth Petry-Johnson](https://twitter.com/spetryjohnson)
+Presented by [Seth Petry-Johnson](https://twitter.com/spetryjohnson)
 
 Seth is my boss, and was going to be discussing practices and processes we use daily, so I kind of had to go, right?  Well, the good news is, Seth never disappoints in his presentations.  Granted, I didn't *learn* anything in this session, but it was nice to see a positive response to the topic from other attendees.
 
