@@ -15,7 +15,7 @@ With all that, let's get into the detail on the pre-compilers/sessions I enjoyed
 
 ## Day One - Tuesday, January 9, 2018
 
-### 1. [Getting Real without Getting Fired -- Saying Things in a Way People Can Hear](http://www.codemash.org/sessions/?id=7354)
+#### 1. [Getting Real without Getting Fired -- Saying Things in a Way People Can Hear](http://www.codemash.org/sessions/?id=7354)
 Presented by [Allison Pollard](https://twitter.com/allison_pollard) & Marcus King 
 
 Allison and Marcus did a great job collaborating on this session.  I walked in a little blind to be honest, as I had chosen the session based solely on the title alone.  What I learned, however, is that a **lot** of people have the issue of "being able to tell it like it is, but nicely".  The one thing thats stuck with me, for some reason, is the discussion on "trust".  I generally lack any trust in an individual that I've only just met.  Should I change my way of thinking, and give people the benefit of the doubt?  I'm still thinking about this one, so thanks Allison and Marcus!
@@ -26,7 +26,7 @@ Presented by [Doc Norton](https://twitter.com/docondev) & [Diane Zajac](https://
 Doc and Diane presented a fantastic session from start to finish.  They placed us in groups and had us work together, which I always worry about, but it worked out wonderfully.  Every step of the process they walked us through, led perfectly to the next and taught us leadership concepts the entire way.  Honestly, if I could, I would attend this again.  Great job!
 
 ## Day Two - Wednesday, January 10, 2018
----
+
 ### 1. [Webapp Pentesting for Developers and QA Persons](http://www.codemash.org/sessions/?id=7348)
 Presented by [Brian King](https://twitter.com/bbhacking)
 
