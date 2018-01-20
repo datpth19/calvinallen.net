@@ -45,3 +45,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/social/social_card.jpeg
