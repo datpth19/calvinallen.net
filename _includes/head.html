@@ -40,6 +40,19 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-		{% seo %}
+	<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+	
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:image" content="http://www.calvinallen.net/images/social/social_card.jpeg" />
+	<meta property="og:site_name" content="Calvin A. Allen" />
+	<meta property="article:published_time" content="{{ page.date }}" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@_CalvinAllen" />
+	<meta name="twitter:creator" content="@_CalvinAllen" />
+
   	{% include google_analytics.html %}
 </head>
