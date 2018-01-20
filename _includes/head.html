@@ -54,5 +54,6 @@
 	<meta name="twitter:site" content="@_CalvinAllen" />
 	<meta name="twitter:creator" content="@_CalvinAllen" />
 
+	<title>{%if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   	{% include google_analytics.html %}
 </head>
