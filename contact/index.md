@@ -2,10 +2,7 @@
 layout: page
 title: Contact Me
 ---
-<form name="contact" action="thank-you" netlify-honeypot="bot-field" netlify>
-    <p class="hidden">
-        <label>Don't fill this out if you're human: <input name="bot-field"></label>
-    </p>
+<form name="contact" action="https://www.calvinallen.net" netlify>
     <p>
         <label>Your Name: <input type="text" name="name" required></label>   
     </p>
@@ -15,8 +12,6 @@ title: Contact Me
     <p>
         <label>Message: <textarea name="message" required></textarea></label>
     </p>
-    <div netlify-recaptcha>
-    </div>
     <p>
         <button type="submit">Submit</button>
     </p>
