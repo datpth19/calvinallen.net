@@ -2,23 +2,22 @@
 layout: page
 title: Contact Me
 ---
-<div id="wufoo-z85tunf0eau2au">
-
-</div>
-
-<script type="text/javascript">var z85tunf0eau2au;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'calvinallen',
-'formHash':'z85tunf0eau2au',
-'autoResize':true,
-'height':'750',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z85tunf0eau2au = new WufooForm();z85tunf0eau2au.initialize(options);z85tunf0eau2au.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
+<form name="contact" action="thank-you" netlify-honeypot="bot-field" netlify>
+    <p class="hidden">
+        <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+    <p>
+        <label>Your Name: <input type="text" name="name" required></label>   
+    </p>
+    <p>
+        <label>Email: <input type="email" name="name" required></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message" required></textarea></label>
+    </p>
+    <div netlify-recaptcha>
+    </div>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
