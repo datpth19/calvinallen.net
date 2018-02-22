@@ -2,7 +2,7 @@
 layout: page
 title: Contact Me
 ---
-<form name="contact" action="https://www.calvinallen.net" netlify>
+<form name="contact" netlify>
     <p>
         <label>Your Name: <input type="text" name="name" required></label>   
     </p>
