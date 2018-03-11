@@ -13,6 +13,9 @@ title: Contact Me
         <label>Message: <textarea name="message" required></textarea></label>
     </p>
     <p>
+        <div netlify-recaptcha></div>
+    </p>
+    <p>
         <button type="submit">Submit</button>
     </p>
 </form>
