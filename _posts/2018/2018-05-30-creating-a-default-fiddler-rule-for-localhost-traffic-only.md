@@ -14,28 +14,28 @@ I toyed around with the "custom rules" in Fiddler before, but lost them somewher
 
 Today, I decided to finally tackle it again.  However, I wanted to add the rule as an option in the menu that is enabled by default, so that as soon as I launch Fiddler, it is automatically filtering the request output.
 
-Start by launching Fiddler, and going to Rules | Customize Rules in the menu bar.
+Start by launching Fiddler, and going to ```Rules | Customize Rules``` in the menu bar.
 
 This will launch the Fiddler ScriptEditor.
 
 Inside of the ```Handlers``` class, add the following code, which sets up a new menu item under "Rules", called "Show Localhost Only", with a default of true:
 ```csharp
-	public static RulesOption("Show Localhost Only")
-	var m_ShowLocalhostOnly: boolean = true;
+public static RulesOption("Show Localhost Only")
+var m_ShowLocalhostOnly: boolean = true;
 ```
 
 Now, scroll down until you find the ```OnBeforeRequest``` method.  Looks like this:
 
 ```csharp
-	static function OnBeforeRequest(oSession: Session) {        
+static function OnBeforeRequest(oSession: Session) {        
 ```
 
 Inside of that method, add the following conditional:
 
 ```csharp
-        if (m_ShowLocalhostOnly && oSession.host.indexOf("localhost.com") == -1) {
-            oSession["ui-hide"] = "true";
-        } 
+if (m_ShowLocalhostOnly && oSession.host.indexOf("localhost.com") == -1) {
+	oSession["ui-hide"] = "true";
+} 
 ```
 
 Locally, when I'm developing, I have hostnames setup for all of my sites using localhost.com as the TLD.  If you utilize something a little different, just modify the ```indexOf``` method inside of the if block.
