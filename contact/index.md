@@ -3,7 +3,7 @@ layout: page
 title: Contact Me
 ---
 <form name="contact" netlify netlify-honeypot="bot-field">
-    <p class="hidden">
+    <p style="visibility:none">
         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
     </p>
     <p>
