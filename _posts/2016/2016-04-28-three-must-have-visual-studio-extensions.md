@@ -3,7 +3,7 @@ layout: post
 title: "Three 'Must Have' Visual Studio Extensions"
 date: 2016-04-28 -0400
 comments: true
-categories: [extensions, visual studio]
+tags: [extensions, visual studio]
 ---
 
 Every single time I install Visual Studio, the very next step I take is to install my favorite extensions. I only have three, and here they are, in order:

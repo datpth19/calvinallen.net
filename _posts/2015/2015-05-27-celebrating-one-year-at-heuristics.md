@@ -3,7 +3,7 @@ layout: post
 title: "Celebrating One Year at Heuristics"
 date: 2015-05-27 -0400
 comments: true
-categories: [career, meta]
+tags: [career, meta]
 ---
 
 I realized earlier that today marks my one year anniversary at [Heuristic Solutions](http://www.heuristics.net) (thanks, Facebook ‘On this day’ :-) ).

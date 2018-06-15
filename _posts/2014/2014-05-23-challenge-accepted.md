@@ -3,7 +3,7 @@ layout: post
 title: "Challenge, Accepted!"
 date: 2014-06-04 -0400
 comments: true
-categories: [career]
+tags: [career]
 ---
 
 The last few weeks have been a little stressful here at the Allen household due to the job situation, but things are turning around!

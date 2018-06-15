@@ -3,7 +3,7 @@ layout: post
 title: "CodeMash 2018 Review"
 date: 2018-01-19
 comments: true
-categories: [codemash, conference, review]
+tags: [codemash, conference, review]
 ---
 
 After missing CodeMash last year for my wife's cancer surgery, I was able to make my triumphant return to CodeMash this year.

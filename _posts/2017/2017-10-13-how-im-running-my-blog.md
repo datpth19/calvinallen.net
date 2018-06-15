@@ -3,7 +3,7 @@ layout: post
 title: "How I'm Running My Blog - Part I"
 date: 2017-10-06 -0400
 comments: true
-categories: [meta]
+tags: [meta]
 ---
 
 This post is pretty meta, actually, but I found it a little too interesting not to publish.

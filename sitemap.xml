@@ -1,0 +1,21 @@
+---
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+{% for post in site.posts %}
+<url>
+<loc>{{ site.url }}{{ post.url }}</loc>
+<lastmod>{{ post.date | datetime | date_to_xmlschema }}</lastmod/>
+</url>
+{% endfor %}
+
+{% assign pages_to_map = site.pages | where_exp:"item","item.sitemap == true" | where_exp: "item", "item.layout != nil" %}
+{% for page in pages_to_map %}
+<url>
+<loc>{{ site.url }}{{ page.url }}</loc>
+</url>
+{% endfor %}
+
+</urlset>

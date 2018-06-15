@@ -3,7 +3,7 @@ layout: post
 title: "Creating a default Fiddler rule for Localhost traffic only"
 date: 2018-05-30
 comments: true
-categories: [programming, fiddler]
+tags: [programming, fiddler]
 ---
 
 Fiddler is a fantastic tool for assisting in debugging HTTP request/responses.
@@ -19,6 +19,7 @@ Start by launching Fiddler, and going to ```Rules | Customize Rules``` in the me
 This will launch the Fiddler ScriptEditor.
 
 Inside of the ```Handlers``` class, add the following code, which sets up a new menu item under "Rules", called "Show Localhost Only", with a default of true:
+
 ```csharp
 public static RulesOption("Show Localhost Only")
 var m_ShowLocalhostOnly: boolean = true;

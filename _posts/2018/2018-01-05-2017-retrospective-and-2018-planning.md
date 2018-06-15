@@ -3,7 +3,7 @@ layout: post
 title: "2017 Retrospective and 2018 Planning"
 date: 2018-01-05
 comments: true
-categories: [meta,retrospective,planning]
+tags: [meta,retrospective,planning]
 ---
 
 ## 2017

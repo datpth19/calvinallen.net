@@ -3,7 +3,7 @@ layout: post
 title: "Running Jenkins on Port 80 under Windows"
 date: 2014-06-28 -0400
 comments: true
-categories: [jenkins, iis]
+tags: [jenkins, iis]
 ---
 
 You want to run Jenkins on port 80 on your windows machine, huh? It's easier said than done. 

@@ -3,7 +3,7 @@ layout: post
 title: "StirTrek 2013 Review"
 date: 2013-05-20 -0400
 comments: true
-categories: [stirtrek, conference, review]
+tags: [stirtrek, conference, review]
 ---
 
 Oh man, StirTrek was awesome this year! There were a ton of people there – I think around 1200, total. It did, at times, make me a little claustrophobic, which I have never had a problem with before, so that was new  :)

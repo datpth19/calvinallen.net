@@ -3,7 +3,7 @@ layout: post
 title: "Programming Live Streams"
 date: 2018-02-02
 comments: true
-categories: [programming, streaming]
+tags: [programming, streaming]
 ---
 
 Recently, I've become somewhat hooked on watching a few people live code various things on Twitch.  

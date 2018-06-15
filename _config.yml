@@ -8,6 +8,7 @@ title: Calvin A. Allen
 subtitle: My Digital Mind
 gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57?s=160
 subscribe_rss: http://feeds.feedburner.com/CalvinAllen/
+lang: en
 
 linkedin_user: calvin-allen
 stackoverflow_user: 411
@@ -29,19 +30,26 @@ disqus_show_comment_count: true
 # Google Analytics
 google_analytics_tracking_id: UA-48089969-1
 
-kramdown:
-  hard_wrap: false
-
-#
 # Jekyll Settings
-#
 permalink: /archive/:year/:month/:day/:title/
-paginate: 20
+paginate: 10
 paginate_path: "page/:num"
-category_dir: categories
 future: false
 
 plugins:
-  - jekyll-redirect-from
-  - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-postfiles
+
+sass:
+  sass_dir:          _scss
+  style:            :compressed
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      sitemap: true

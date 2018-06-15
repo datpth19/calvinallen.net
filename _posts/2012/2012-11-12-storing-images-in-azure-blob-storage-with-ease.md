@@ -3,7 +3,7 @@ layout: post
 title: "Storing Images in Azure Blog Storage with Ease"
 date: 2012-11-12 -0400
 comments: true
-categories: [webapi, mvc]
+tags: [webapi, mvc]
 ---
 
 On a recent project, we had a need to integrate Azure blob storage with our web application (also hosted on Azure) to store images. What we found, is that it’s so easy!

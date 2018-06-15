@@ -3,7 +3,7 @@ layout: post
 title: "Imposter Syndrome - The Return"
 date: 2014-06-28 -0400
 comments: true
-categories: [career, imposter-syndrome]
+tags: [career, imposter-syndrome]
 ---
 
 As most of you know, I recently started a new job with Heuristic Solutions working on their LearningBuilder product. I’ve been with them now for about a month, and up until about last week, things were going great. Then, out of nowhere, The Imposter Monster made its unwelcoming return.

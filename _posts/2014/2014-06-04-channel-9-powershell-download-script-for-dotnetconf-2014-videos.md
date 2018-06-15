@@ -3,7 +3,7 @@ layout: post
 title: "Channel 9 PowerShell Download Script for dotNetConf 2014 Videos"
 date: 2014-06-04 -0400
 comments: true
-categories: [channel9,dotnetconf,powershell]
+tags: [channel9,dotnetconf,powershell]
 ---
 
 Based on my previous script of a nearly identical title, this script will snag the 2014 dotNetConf videos (high quality MP4s) from Channel 9.

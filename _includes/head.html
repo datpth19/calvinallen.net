@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 {% if site.lang %}
-<html lang="{{ site.lang }}">
+	<html lang="{{ site.lang }}">
 {% else %}
-<html>
+	<html>
 {% endif %}
+
 <head>
 	<meta charset="utf-8">
 
@@ -17,46 +18,69 @@
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700,800' rel='stylesheet' type='text/css'>
-	<link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="/css/code.css" type="text/css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href="/css/site.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/js/slash.js" async></script>
 
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png?v=WGL8Y3xokm">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png?v=WGL8Y3xokm">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png?v=WGL8Y3xokm">
+	<link rel="manifest" href="/images/icons/site.webmanifest?v=WGL8Y3xokm">
+	<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg?v=WGL8Y3xokm" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/icons/favicon.ico?v=WGL8Y3xokm">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/images/icons/browserconfig.xml?v=WGL8Y3xokm">
 	<meta name="theme-color" content="#ffffff">
 
 	<link rel="canonical" href="{{ page.url | prepend: site.url }}">
 	
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-	<meta property="og:image" content="https://www.calvinallen.net/images/social/social_card.jpeg" />
-	<meta property="og:image:width" content="256" />
-	<meta property="og:image:height" content="256" />
-	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:site_name" content="Calvin A. Allen" />
-	<meta property="article:published_time" content="{{ page.date }}" />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@_CalvinAllen" />
 	<meta name="twitter:creator" content="@_CalvinAllen" />
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="512" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="fb:app_id" content="2137237369891084" />
 
-	<title>{%if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+	{% if page.title %}
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="{{ page.title }}" />
+  	{% else %}
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="{{ site.title }}" />
+	{% endif %}
+	
+	{% if page.image %}
+		<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image }}" />
+	{% else %}
+		<meta property="og:image" content="{{ site.url }}/images/social/headshot.png" />
+	{% endif %}
+
+	{% if page.description %}
+		<meta property="og:description" content="{{ page.description }}" />
+	{% else %}
+		<meta property="og:description" content="{{ site.description }}" />
+	{% endif %}
+
+	{% if page.date %}
+		<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+		<meta property="article:author" content="{{ site.url }}/about/" />
+	{% endif %}
+
+	{% if page.tags %}
+  		{% for tag in page.tags %}
+  			<meta content="{{ tag }}" property="article:tag">
+  		{% endfor %}
+	{% endif %}
+
+	{%if page.title %}
+		<title>{{ page.title }} - {{ site.title }}</title>
+	{% else %}
+		<title>{{ site.title }}</title>	
+	{% endif %}
+
   	{% include google_analytics.html %}
 </head>

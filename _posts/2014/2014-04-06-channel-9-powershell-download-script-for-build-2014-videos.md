@@ -3,7 +3,7 @@ layout: post
 title: "Channel 9 PowerShell Download Script for Build 2014 Videos"
 date: 2014-04-06 -0400
 comments: true
-categories: [channel9,build,powershell]
+tags: [channel9,build,powershell]
 ---
 
 Crazy long title, but you get the idea.

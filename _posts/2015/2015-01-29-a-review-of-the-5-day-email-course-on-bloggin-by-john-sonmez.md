@@ -3,7 +3,7 @@ layout: post
 title: "A Review of the 5 Day Email Course on Blogging by John Sonmez"
 date: 2015-01-29 -0400
 comments: true
-categories: [blogging, career, review]
+tags: [blogging, career, review]
 ---
 
 Over the last few weeks, I’ve been indulging in the content delivered to my inbox by a Mr. John Sonmez.
