@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Me
+sitemap: true
 ---
 
 <style>

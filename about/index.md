@@ -1,9 +1,7 @@
 ---
 layout: page
 title: "About Calvin"
-date: 2017-10-15 -0400
-comments: false
-sharing: false
+sitemap: true
 ---
 
 ## Who I am

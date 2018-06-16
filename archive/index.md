@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Archives
+sitemap: true
 ---
 
 <div class="archives" itemscope itemtype="http://schema.org/Blog">

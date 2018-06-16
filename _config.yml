@@ -51,18 +51,26 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      layout: null 
+      sitemap: false
+      comments: false
+      sharing: false
+      image: null  
+  -
+    scope:
+      path: "page"
+      type: "pages"
+    values:
+      layout: page 
+      sitemap: true      
+  -
+    scope:
+      path: "archive"
       type: "posts"
     values:
       layout: "post"
       sitemap: true
       comments: true
+      sharing: true
       image: "cover.jpg"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      sitemap: true
-      comments: false
-      image: null
