@@ -69,16 +69,14 @@ layout: null
 
       {% if post.description and post.description != empty %}
         <summary type="html">{{ post.description | strip_html | normalize_whitespace | xml_escape }}</summary>
-	  {% elsif post.excerpt and post.excerpt != empty %}
-	  	<summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
+	    {% elsif post.excerpt and post.excerpt != empty %}
+	  	  <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
-      {% assign post_image = post.image.path | default: post.image %}
-      {% if post_image %}
-        {% unless post_image contains "://" %}
-          {% assign post_image = post_image | absolute_url %}
-        {% endunless %}
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
+      {% if post.image %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image }}" />
+      {% else %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />
       {% endif %}
     </entry>
   {% endfor %}

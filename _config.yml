@@ -39,17 +39,30 @@ future: false
 plugins:
   - jekyll-paginate
   - jekyll-postfiles
+  - jekyll-redirect-from
 
 sass:
   sass_dir:          _scss
   style:            :compressed
 
-exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", ".editorconfig"]
 
 defaults:
   -
     scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      sitemap: true
+      comments: true
+      image: "cover.jpg"
+  -
+    scope:
+      path: ""
       type: "pages"
     values:
+      layout: "page"
       sitemap: true
+      comments: false
+      image: null

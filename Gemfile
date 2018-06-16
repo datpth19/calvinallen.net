@@ -6,6 +6,7 @@ gem "jekyll", "~> 3.7.2"
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-postfiles"
+  gem "jekyll-redirect-from"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
