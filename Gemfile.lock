@@ -5,6 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    configatron (4.5.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -68,6 +69,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  configatron (~> 4.5)
   jekyll (~> 3.7.2)
   jekyll-paginate
   jekyll-postfiles
