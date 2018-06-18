@@ -5,6 +5,8 @@ tags: [extensions, visual studio, notepad++, oss]
 
 The past weekend, I took a few moments to relish in the "fun" that is programming something that is not work-related. That creation came to be a Visual Studio extension, known as, "Open in Notepad++".
 
+<!--more-->
+
 You might be wondering, what does this extension even do?
 
 Well, it adds a new item to the context menu when right-clicking files/folders in the Solution Explorer:

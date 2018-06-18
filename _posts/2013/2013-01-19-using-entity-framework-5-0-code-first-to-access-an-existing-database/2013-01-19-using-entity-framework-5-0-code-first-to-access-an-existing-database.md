@@ -5,6 +5,8 @@ tags: [webapi, mvc, entity-framework]
 
 In this post, I’ll show you some of the basics on how to utilize Entity Framework 5.0’s “Code-First” features to develop a data access layer against an existing database. I’ll be demonstrating these concepts with a new MVC 4 Web API application and SQL Server 2012, but I won’t be covering either of those in this tutorial.
 
+<!--more-->
+
 While Code-First is a great paradigm for starting a new application from scratch, you can also use it to map back to an existing database with ease.
 
 Let’s pretend we’re working with a very simplistic Twitter model, as shown below.
@@ -14,7 +16,7 @@ Not a lot of meat here, a simple structure for Users and their Tweets. Of course
 
 To demonstrate how to accomplish this, we’re going to create a new MVC 4 Web API application in Visual Studio 2012, using C# AS our language. Our database will be running in SQL Server 2012.
 
-After launching Visual Studio, navigate to `FILE | New | Project dialog`, and select Web from the installed templates navigation section, select ASP.NET MVC 4 Web Application, give your project a name, and click OK. 
+After launching Visual Studio, navigate to `File | New | Project` dialog, and select Web from the installed templates navigation section, select ASP.NET MVC 4 Web Application, give your project a name, and click OK. 
 
 I'm going to call mine, "Tweeters"
 ![New Project Dialog](NewProjectDialog.png)

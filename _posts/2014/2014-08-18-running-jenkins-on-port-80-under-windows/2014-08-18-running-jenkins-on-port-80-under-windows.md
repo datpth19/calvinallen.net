@@ -5,6 +5,8 @@ tags: [jenkins, iis]
 
 You want to run Jenkins on port 80 on your windows machine, huh? It's easier said than done. 
 
+<!--more-->
+
 Well, it used to be before I wrote this blog post. If you're like me, you've already spent some time trying to get this to work the way you would expect it to work like the Jenkins documentation alludes to:
 * Open `Jenkins.xml`
 * Set `--httpPort=80` in the command line section
