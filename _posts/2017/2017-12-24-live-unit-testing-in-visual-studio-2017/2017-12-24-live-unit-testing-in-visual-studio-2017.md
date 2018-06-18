@@ -9,8 +9,6 @@ Welcome to the Christmas Eve edition (December 24th, 2017) of of the inaugural [
 
 I hope you enjoy this post / find something useful from it, and then go forth and have a very Merry Christmas!
 
-<!--more-->
-
 ## Live Unit Testing
 You may be curious what "live unit testing" means, so let's dive into that a little bit.
 

@@ -39,7 +39,7 @@ future: false
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
-
+  
 sass:
   sass_dir:          _scss
   style:            :compressed
@@ -72,5 +72,4 @@ defaults:
       sitemap: true
       comments: true
       sharing: true
-      excerpt_separator: <!--more-->
       image: "cover.jpg"
