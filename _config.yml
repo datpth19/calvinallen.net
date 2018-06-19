@@ -38,6 +38,7 @@ future: false
 
 plugins:
   - jekyll-paginate
+  - jekyll-redirect-from
   
 sass:
   sass_dir:          _scss

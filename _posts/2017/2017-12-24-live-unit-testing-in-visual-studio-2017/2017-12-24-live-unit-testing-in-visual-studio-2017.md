@@ -1,6 +1,9 @@
 ---
 title: "Live Unit Testing in Visual Studio 2017"
 tags: [lut, live unit testing, vs2017, visual studio 2017]
+redirect_from:
+  - /archives/2017/12/23/live-unit-testing-in-visual-studio-2017
+  - /archives/2017/12/24/live-unit-testing-in-visual-studio-2017
 ---
 
 Welcome to the Christmas Eve edition (December 24th, 2017) of of the inaugural [C# Advent Calendar](https://crosscuttingconcerns.com/The-First-C-Advent-Calendar)!  Please go and check out the other 23 *awesome* posts in the series.

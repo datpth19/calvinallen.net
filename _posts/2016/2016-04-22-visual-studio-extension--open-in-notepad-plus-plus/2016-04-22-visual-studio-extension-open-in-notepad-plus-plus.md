@@ -1,6 +1,8 @@
 ---
 title: "Visual Studio Extension - Open in Notepad++"
 tags: [extensions, visual studio, notepad++, oss]
+redirect_from:
+  - /archives/2016/04/22/visual-studio-extension-open-in-notepad-plus-plus
 ---
 
 The past weekend, I took a few moments to relish in the "fun" that is programming something that is not work-related. That creation came to be a Visual Studio extension, known as, "Open in Notepad++".

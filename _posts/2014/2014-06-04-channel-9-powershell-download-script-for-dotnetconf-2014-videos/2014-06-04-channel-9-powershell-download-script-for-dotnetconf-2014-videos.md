@@ -1,6 +1,8 @@
 ---
 title: "Channel 9 PowerShell Download Script for dotNetConf 2014 Videos"
 tags: [channel9,dotnetconf,powershell]
+redirect_from:
+  - /archives/2014/06/04/channel-9-powershell-download-script-for-dotnetconf-2014-videos
 ---
 
 Based on my previous script of a nearly identical title, this script will snag the 2014 dotNetConf videos (high quality MP4s) from Channel 9.

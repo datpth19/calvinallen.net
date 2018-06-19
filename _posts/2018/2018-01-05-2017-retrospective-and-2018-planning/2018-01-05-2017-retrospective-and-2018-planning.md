@@ -1,6 +1,8 @@
 ---
 title: "2017 Retrospective and 2018 Planning"
 tags: [meta,retrospective,planning]
+redirect_from:
+  - /archives/2018/01/05/2017-retrospective-and-2018-planning
 ---
 
 ## 2017

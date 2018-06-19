@@ -1,6 +1,8 @@
 ---
 title: "CodeMash 2018 Review"
 tags: [codemash, conference, review]
+redirect_from:
+  - /archives/2018/01/19/codemash-2018-review
 ---
 
 After missing CodeMash last year for my wife's cancer surgery, I was able to make my triumphant return to CodeMash this year.

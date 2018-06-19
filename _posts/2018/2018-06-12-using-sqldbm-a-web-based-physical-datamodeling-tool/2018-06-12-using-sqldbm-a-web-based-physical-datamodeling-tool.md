@@ -1,6 +1,8 @@
 ---
 title: "Using sqlDBM - A Web-based Physical Data-Modeling Tool"
 tags: [database, physical, data model]
+redirect_from:
+  - /archives/2018/06/12/using-sqldbm-a-web-based-physical-datamodeling-tool
 ---
 
 I recently stumbled upon a new tool for modeling database structures - [sqlDBM](https://sqldbm.com), and I had to share it because its awesome.
