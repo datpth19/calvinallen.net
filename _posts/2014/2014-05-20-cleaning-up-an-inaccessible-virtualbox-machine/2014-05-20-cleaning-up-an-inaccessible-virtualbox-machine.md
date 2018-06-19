@@ -11,8 +11,6 @@ I had a really difficult time coming up with a title for this post, but essentia
 
 I found myself in this predicament earlier this evening. All I wanted to do was remove the VM from the list of machines in VirtualBox, but it wouldn't let me because it couldn't find any of the files in the given location. After a few hacks, I found a solution. Hopefully, this might help someone.
 
-<!--more-->
-
 Given a VirtualBox machine - let's call him "Test Machine", that resides on your host machine's file system
 ![Setup - Image 1](TheSetup.png)
 ![Setup - Image 2](TheSetup2.png)

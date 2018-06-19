@@ -7,8 +7,6 @@ This post is pretty meta, actually, but I found it a little too interesting not 
 
 When I decided to restart my blog, I wanted to use GitHub Pages / Jekyll.  The problem with that is that I also have my own domain name, and I strongly believe in 'HTTPS ALL TEH THINGS' - which I could not do with GitHub Pages and a custom domain.
 
-<!--more-->
-
 I knew there had to be a way to accomplish my very simple requirements:
 * Jekyll
 * HTTPS/TLS

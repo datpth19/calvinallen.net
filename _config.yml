@@ -31,14 +31,13 @@ disqus_show_comment_count: true
 google_analytics_tracking_id: UA-48089969-1
 
 # Jekyll Settings
-permalink: /archive/:year/:month/:day/:title/
+permalink: /:title/
 paginate: 10
 paginate_path: "page/:num"
 future: false
 
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
   
 sass:
   sass_dir:          _scss

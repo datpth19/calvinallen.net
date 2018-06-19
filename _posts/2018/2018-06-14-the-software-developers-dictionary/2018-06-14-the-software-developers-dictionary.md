@@ -2,8 +2,6 @@
 title: "The Software Developers' Dictionary"
 tags: [dictionary, sdd]
 description: "Starting a dictionary for software professionals, because we like to use strange terms that have no meaning in traditional life."
-redirect_from:
-  - /archive/2018/06/14/the-software-developers-dictionary-boxing/
 ---
 
 Recently, I read a question that I simply didn't know the answer to:
