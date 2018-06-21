@@ -2,7 +2,7 @@
 title: "Celebrating One Year at Heuristics"
 tags: [career, meta]
 redirect_from:
-  - /archives/2015/05/27/celebrating-one-year-at-heuristics
+  - /archive/2015/05/27/celebrating-one-year-at-heuristics
 ---
 
 I realized earlier that today marks my one year anniversary at [Heuristic Solutions](http://www.heuristics.net) (thanks, Facebook ‘On this day’ :-) ).

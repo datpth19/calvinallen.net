@@ -2,8 +2,8 @@
 title: "A Review of the 5 Day Email Course on Blogging by John Sonmez"
 tags: [blogging, career, review]
 redirect_from:
-  - /archives/2015/01/29/a-review-of-the-5-day-email-course-on-blogging-by-john-sonmez
-  - /archives/2015/01/29/a-review-of-the-5-day-email-course-on-bloggin-by-john-sonmez
+  - /archive/2015/01/29/a-review-of-the-5-day-email-course-on-blogging-by-john-sonmez
+  - /archive/2015/01/29/a-review-of-the-5-day-email-course-on-bloggin-by-john-sonmez
 ---
 
 Over the last few weeks, I’ve been indulging in the content delivered to my inbox by a Mr. John Sonmez.

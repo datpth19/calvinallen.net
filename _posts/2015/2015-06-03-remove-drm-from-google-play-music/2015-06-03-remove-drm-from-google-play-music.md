@@ -2,7 +2,7 @@
 title: "Remove DRM From Google Play Music"
 tags: [python, drm, google]
 redirect_from:
-  - /archives/2015/06/03/remove-drm-from-google-play-music
+  - /archive/2015/06/03/remove-drm-from-google-play-music
 ---
 
 I purchase all of my music through Google Play, and I primarily use their web application to listen to it. As a precaution, I also use the Music Manager application to keep a local backup of all of this music on my NAS.

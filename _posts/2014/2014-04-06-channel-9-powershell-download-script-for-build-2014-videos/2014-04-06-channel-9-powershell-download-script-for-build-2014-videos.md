@@ -2,7 +2,7 @@
 title: "Channel 9 PowerShell Download Script for Build 2014 Videos"
 tags: [channel9,build,powershell]
 redirect_from:
-  - /archives/2014/04/06/channel-9-powershell-download-script-for-build-2014-videos
+  - /archive/2014/04/06/channel-9-powershell-download-script-for-build-2014-videos
 ---
 
 Crazy long title, but you get the idea.

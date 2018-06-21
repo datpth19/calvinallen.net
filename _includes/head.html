@@ -52,8 +52,11 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ site.title }}" />
 	{% endif %}
-	
-	{% if page.image %}
+
+  {% assign cover_image = page.path | prepend: '/' | prepend: site.source %}
+  {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
+
+	{% if page.image and cover_image_exists == "true" %}
 		<meta property="og:image" content="{{ site.url }}{{ page.url }}{{ page.image }}" />
 	{% else %}
 		<meta property="og:image" content="{{ site.url }}/images/social/headshot.jpg" />

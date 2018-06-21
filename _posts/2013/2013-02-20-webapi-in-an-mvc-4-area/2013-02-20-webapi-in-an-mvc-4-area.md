@@ -2,7 +2,7 @@
 title: "WebAPI in an MVC 4 Area"
 tags: [webapi, mvc]
 redirect_from:
-  - /archives/2013/02/20/webapi-in-an-mvc-4-area
+  - /archive/2013/02/20/webapi-in-an-mvc-4-area
 ---
 
 Alright, you have your MVC 4 website up and running, and you realize you need to add some WebAPI support – not necessarily for the website, but potential external consumers. Your site is configured using Areas for everything, so you decide it would be best to put the WebAPI layer in an Area as well. Makes sense, right? Right. You quickly find out that it isn’t just as simple as right-clicking, add new area, name it API, pat self on back, etc. That’s where this trick comes in.

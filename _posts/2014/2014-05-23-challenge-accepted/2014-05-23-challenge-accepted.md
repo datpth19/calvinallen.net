@@ -2,7 +2,7 @@
 title: "Challenge, Accepted!"
 tags: [career]
 redirect_from:
-  - /archives/2014/05/23/challenge-accepted
+  - /archive/2014/05/23/challenge-accepted
 ---
 
 The last few weeks have been a little stressful here at the Allen household due to the job situation, but things are turning around!

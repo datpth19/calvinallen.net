@@ -2,7 +2,7 @@
 title: "CodePaLOUsa 2013 Review"
 tags: [codepalousa, conference, review]
 redirect_from:
-  - /archives/2013/05/01/codepalousa-2013-review
+  - /archive/2013/05/01/codepalousa-2013-review
 ---
 
 I had the opportunity this year to attend one of the midwest’s premiere community-ran developer conferences, CodePaLOUsa, which was held in Louisville, KY on April 25th-27th.

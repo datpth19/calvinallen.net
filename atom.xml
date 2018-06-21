@@ -32,7 +32,7 @@
   {% endif %}
 
   {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
-  {% for post in posts limit: 10 %}
+  {% for post in posts %}
     <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
       <title type="html">{{ post.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
       <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
@@ -72,7 +72,10 @@
 	  	  <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
-      {% if post.image %}
+      {% assign cover_image = post.path | prepend: '/' | prepend: site.source %}
+      {% capture cover_image_exists %}{% cover_exists {{ cover_image }} %}{% endcapture %}
+
+      {% if post.image and cover_image_exists == "true" %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}{{ post.url }}{{ post.image }}" />
       {% else %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/images/social/headshot.jpg" />

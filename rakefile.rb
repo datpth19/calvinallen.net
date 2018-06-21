@@ -19,6 +19,9 @@ task :new_post  do
   postTitleClean.gsub!(/[ ]/, '-')
   postTitleClean.gsub!(/(-{2,})/, '-')
   
+  puts "What is a short description of this new post?"
+  postDescriptionInput = $stdin.gets.chomp
+
   puts "What is the date of the new post?"
   postDateInput = $stdin.gets.chomp
   postDate = Date.parse(postDateInput)
@@ -36,7 +39,10 @@ task :new_post  do
 ---
 title: "#{postTitleInput}"
 tags: [#{postTagsArray.join(",")}]
+description: "#{postDescriptionInput}"
 ---
+
+<TYPE YO POST HERE, AND DON'T FORGET THE COVER IMAGE!>
 EOF
 
   yearPath = File.expand_path(File.join(Dir.pwd, configatron.posts_dir, postYear.to_s))
