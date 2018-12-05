@@ -4,7 +4,7 @@ tags: [.net, c#, visual-studio, csadvent]
 description: "Using .editorconfig in Visual Studio to create discoverable standards"
 ---
 
-> My contribution to this year's CSAdvent, hosted by my buddy Matt Groves, is all about trying to surface your coding and naming standards right in Visual Studio.  Visit https://crosscuttingconcerns.com/The-Second-Annual-C-Advent to see the full calendar of posts!
+> My contribution to this year's CSAdvent, hosted by my buddy Matt Groves, is all about trying to surface your coding and naming standards right in Visual Studio.  Visit [https://crosscuttingconcerns.com/The-Second-Annual-C-Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent) to see the full calendar of posts!
 
 Starting in Visual Studio 2017, we have the option of using an ".editorconfig" file to define tons of editor standards - from basic things, such as "Tabs versus Spaces":
 
