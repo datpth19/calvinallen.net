@@ -1,6 +1,6 @@
 ---
 title: "C#, .NET, and Visual Studio - 2018 Year in Review"
-tags: [".net","c#","visual-studio","year-in-review","csadvent"]
+tags: ["dotnet","csharp","visualstudio","yearinreview","csadvent"]
 description: "Let's take a look back through 2018 to see how C#, .NET, and Visual Studio have progressed!"
 ---
 
