@@ -1,6 +1,6 @@
 ---
 title: "Launch of the .NET Bytes Podcast!"
-tags: ["dotnet",".net","csharp","visual-studio"]
+tags: ["dotnet","net","csharp","visualstudio"]
 description: "I've launched a new podcast with Matt Groves (of the Cross-Cutting-Concerns fame) to disseminate the news about .NET, C#, Visual Studio and everything in between from Redmond (Microsoft) and around the world!"
 ---
 
