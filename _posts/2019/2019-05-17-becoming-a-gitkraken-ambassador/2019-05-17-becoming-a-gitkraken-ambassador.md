@@ -13,6 +13,6 @@ Since I was already happily promoting the product, I applied, and earlier this e
 What does this mean?  Well, I'll still be promoting the product, but I'll probably make it a little more obvious (referral links, using it on live streams and videos, working it into conference talks, etc.).  I'll also be spending some time checking out (and promoting) GitKraken [Glo Boards](https://www.gitkraken.com/glo)(a "Trello" competitor that integrates directly into the [GitKraken Git Client]((https://www.gitkraken.com/git-client))
 
 If you'd like to try out [GitKraken](https://www.gitkraken.com/git-client), maybe download it and give it a shot?
-https://www.gitkraken.com/invite/6zb3y67R
+[https://www.gitkraken.com/invite/6zb3y67R](https://www.gitkraken.com/invite/6zb3y67R)
 
 If you do, [please let me know what you think](https://www.calvinallen.net/contact)!
