@@ -6,7 +6,7 @@ require 'configatron'
 configatron.posts_dir       =     './_posts'
 
 desc "Adds the proper structure for a new post into the site based on your input"
-task :new_post  do
+task :new  do
   puts "What is the title of the new post?"
   postTitleInput = $stdin.gets.chomp
   postTitleInput.strip!
