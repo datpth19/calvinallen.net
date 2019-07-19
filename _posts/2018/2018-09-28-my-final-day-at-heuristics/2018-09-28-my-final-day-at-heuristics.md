@@ -12,4 +12,4 @@ So, what's next?
 
 Well, I've accepted a position as a Senior Developer at JPMorgan Chase here in town, where I'll get to put my skills to use on a .NET Core application, which I'm very excited about!  
 
-I don't start until October 8th, so until then, I'll be getting my home office rearranged into a "production studio" to support my [Twitch channel](https://live.codebytes.tv) / [YouTube channel](https://archives.codebytes.tv) (CodeBytesTV) and [upcoming podcast](https://www.dotnetbytes.fm/) (.NET Bytes).
+I don't start until October 8th, so until then, I'll be getting my home office rearranged into a "production studio" to support my [Twitch channel](https://luv2.dev/live) / [YouTube channel](https://luv2.dev/archives) (CodeBytesTV) and [upcoming podcast](https://www.dotnetbytes.fm/) (.NET Bytes).

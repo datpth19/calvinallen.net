@@ -235,6 +235,12 @@ a {
 }
 #sub-nav .social a.rss:hover { border: 1px solid #cf5d0f }
 
+#sub-nav .social a.patreon {
+  background: url('/images/social/patreon.jpg?1385702818') center no-repeat #F86754;
+  border: 1px solid #F86754;
+}
+#sub-nav .social a.patreon:hover { border: 1px solid #F86754 }
+
 #pagenavi {
     padding: 20px 0;
     height: 20px;

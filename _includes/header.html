@@ -1,6 +1,6 @@
 <div class="profilepic">
 	{% if site.gravatar_url %}
-	<img src="{{ site.gravatar_url }}?s=160" alt="Profile Picture" style="width: 160px;" />
+	  <img src="{{ site.gravatar_url }}?s=160" alt="Profile Picture" />
 	{% endif %}
 </div>
 <hgroup>
@@ -16,22 +16,24 @@
 		{% if site.email %}
 			<a class="email" href="mailto:{{ site.email }}" title="Email">Email</a>
 		{% endif %}
-		{% if site.twitter_user %}
-			<a class="twitter" href="https://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
+		{% if site.twitter_url %}
+			<a class="twitter" href="{{ site.twitter_url }}" title="Twitter">Twitter</a>
 		{% endif %}
-		{% if site.linkedin_user %}
-			<a class="linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_user }}" title="LinkedIn">LinkedIn</a>
+		{% if site.linkedin_url %}
+			<a class="linkedin" href="{{ site.linkedin_url }}" title="LinkedIn">LinkedIn</a>
 		{% endif %}		
-		{% if site.github_user %}
-			<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+		{% if site.github_url %}
+			<a class="github" href="{{ site.github_url }}" title="GitHub">GitHub</a>
 		{% endif %}
-		{% if site.stackoverflow_user %}
-			<a class="stackoverflow" href="https://www.stackoverflow.com/users/{{ site.stackoverflow_user }}" title="Stack Overflow">Stack Overflow</a>
+		{% if site.stackoverflow_url %}
+			<a class="stackoverflow" href="{{ site.stackoverflow_url }}" title="Stack Overflow">Stack Overflow</a>
 		{% endif %}
-		{% if site.subscribe_rss %}
-			<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
+		{% if site.rss_url %}
+			<a class="rss" href="{{ site.rss_url }}" title="RSS">RSS</a>
+		{% endif %}
+		{% if site.patreon_url %}
+			<a class="patreon" href="{{ site.patreon_url }}" title="Become a patron">Patreon</a>
 		{% endif %}
 	</div>
 </nav>
 
-<a href="https://www.patreon.com/bePatron?u=19323697" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>

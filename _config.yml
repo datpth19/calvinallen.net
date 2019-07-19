@@ -6,22 +6,16 @@ description: My Digital Mind.
 url: https://www.calvinallen.net
 title: Calvin A. Allen
 subtitle: My Digital Mind
-gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57?s=160
-subscribe_rss: https://feeds.feedburner.com/CalvinAllen/
 lang: en
 
-linkedin_user: calvin-allen
-stackoverflow_user: 411
-
-# Github repositories
-github_user: calvinallen
-github_repo_url: https://github.com/calvinallen/calvinallen.net/
-
-# Twitter
-twitter_user: _CalvinAllen
-twitter:
-  username: _CalvinAllen
-twitter_tweet_button: true
+rss_url: https://luv2.dev/rss
+gravatar_url: https://gravatar.com/avatar/a1c6325a95a54f6321b05edb40490f57
+linkedin_url: https://luv2.dev/linkedin
+patreon_url: https://luv2.dev/patreon
+github_url: https://luv2.dev/github
+github_repo_url: https://github.com/calvinallen/calvinallen.net
+stackoverflow_url: https://luv2.dev/stackoverflow
+twitter_url: https://luv2.dev/twitter
 
 # Disqus Comments
 disqus_short_name: calvinallen
